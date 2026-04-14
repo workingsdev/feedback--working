@@ -180,6 +180,65 @@
           0% { filter: drop-shadow(0 0 10px rgba(255, 158, 11, 0.5)); }
           100% { filter: drop-shadow(0 0 20px rgba(255, 158, 11, 1)); }
         }
+        /* 📱 MOBILE */
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    main {
+        width: 100%;
+        margin: 10px auto;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    header {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input, textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    textarea {
+        height: 80px;
+    }
+
+    button {
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    select {
+        font-size: 14px;
+    }
+
+    /* ⭐ estrelas menores no celular */
+    .radio {
+        gap: 6px;
+    }
+
+    .radio > label {
+        font-size: 24px;
+    }
+
+    .radio > label svg {
+        width: 24px;
+        height: 24px;
+    }
+}
     </style>
 </head>
 
